@@ -1,0 +1,31 @@
+= Why not just print the RTF file that comes out of my Scripture editing program? =
+
+The RTF files exported from these programs at present have
+ * no page numbers
+ * no book name or chapter number in the page headers
+ * no indication of the language, checking stage reached by this text or of the date the data were exported from the editing program
+
+
+= The benefits of using Silas =
+
+Silas makes your printouts safer, because Silas does the following things by default:
+ * numbers the pages, so you can say in village checking sessions, "Turn to page 16 now".
+ * puts in the page header the book name and the number(s) of the chapter(s) that appear on the page, so people can find a book-chapter reference quickly
+ * puts in the page footer (of proof printouts) the date on which the data were exported from your editing program, and the ID line exported by your editing software, which can contain
+  * book-name abbreviation
+  * language or project name
+  * checking stage, such as first draft, village checked etc
+ * starts a new _section_ wherever the book name (in the ID line) changes, so the page headers can reflect the start of a new book.
+
+Silas also lets you format your data for half-page booklets, with margins set appropriately for folded books or for cut books. When you do that, it automatically creates a title page and a copyright page, with sample credits for pictures you might have used.
+
+Then you can use _macros_ to help you place pictures in your booklet, with the text flowing around the pictures nicely.
+
+After that, Silas can make a separate document that you can print on cardstock for the cover of the booklet.
+
+So that you can try out how your readers respond to different layout options, you can use _macros_ to change the
+ * font
+ * point size
+ * line spacing
+ * columns -- single-column or double-column
+
