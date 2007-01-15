@@ -5,7 +5,7 @@ Revision History for Silas.DOT
 
  * Provide drop-down list of 3-letter booknames in ID form?--only aesthetic value during setup; the bookname isn't used for anything nor is it visible (except for ID footers in Proofs). We could do it with a txt file such as	Recent_Styles.txt.
  * Add horizontal rule between intro and Scr text even if single-column?
- * (eventually) add custom \\z* style support, probably just copy the style into the template so it doesn't hang up
+ * (eventually) add custom `\z*` style support, probably just copy the style into the template so it doesn't hang up
  * check into more automated picture placement (see Toolbox macro by Steve White)
  * Perhaps in some cases we could turn off screen updating rather than changing View to wdNormal? Ck it out when there's time.
   * Jim: I don't think so. The change to Normal view is to stop "Word is repaginating..." over and over.
