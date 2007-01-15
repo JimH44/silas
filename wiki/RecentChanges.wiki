@@ -1,0 +1,47 @@
+#summary Summary of recent changes
+Revision History for Silas.DOT
+
+NEEDED
+
+-Provide drop-down list of 3-letter booknames in ID form?--only aesthetic value during setup; the bookname isn't 
+	used for anything nor is it visible (except for ID footers in Proofs). We could do it with a txt file such as
+	Recent_Styles.txt.
+-Add horizontal rule between intro and Scr text even if single-column?
+-(eventually) add custom \z* style support, probably just copy the style into the template so it doesn't hang up
+-check into more automated picture placement (see Toolbox macro by Steve White)
+-Perhaps in some cases we could turn off screen updating rather than changing View to wdNormal? Ck it out 
+	when there's time. -- Jim: I don't think so. The change to Normal view is to stop 
+	"Word is repaginating..." over and over.
+
+Silas 2.05-1.020 by Jim, 14 Jan 2007
+====================================
+Changed Install Silas to check global variable before offering to install booklet macros.
+Now uses version number, so booklet macros can be updated.
+
+Silas 2.05-1.018 by Jim, 11 Jan 2007
+===================================
+-Perhaps add key(s) to Inifile to note out-of-date stylenames -- done.
+-Fixed addition of ID line and bookname that could end up in Verse Number style.
+
+Silas 2.05-1.016 by Jim, 9 Jan 2007
+===================================
+Cropped picture of final message in "Install Silas.doc" so it wouldn't look like a button people could click.
+-CreateIniFile in LangData needs to be updated so it won't make [SilasVersion] any more. -- fixed.
+-add messages if Recent_Styles.txt or Original_Styles.txt are called. -- done.
+-TE_Styles.txt now looks as if it should handle all the styles that come out of TE in an RTF.
+
+Silas 2.05-1.015 by Kim, 31 Dec 2006
+====================================
+Fixed problem with footnote spacing. Also made Footer and checking table styles stay single-spaced.
+
+Fixed problem with Booklet Macro installation.
+
+Changed Latest_Styles.txt to Custom_Styles.txt. This control file is used for customizing USFM standard, so 
+it's labeled accordingly. The other control files are used for updating to the latest "Standard" stylenames
+in USFM.STY as distributed by the PT team.
+
+Added subs ZoomSet and ZoomRecall to return to previous view.zoom after running jobs. Cleaned up subs to use
+ZoomSet at start, and SetDefaultView (which calls ZoomRecall among other things) rather than 
+ActiveDocument...View=PageOrPrintView at end of subs. Then if user sets a different zoom it won't change 
+after every job. Also cleaned up a few places where screen updating caused a flashing image 
+(switched order of calls at end of some subs).
