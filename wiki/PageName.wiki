@@ -1,7 +1,6 @@
 #Questions you might have about Silas
 
-==FAQ – Frequently-Asked Questions about==
-==Silas – Smart Interactive Layout Assistant for Scripture==
+==FAQ – Frequently-Asked Questions about Silas – Smart Interactive Layout Assistant for Scripture==
 
 *How do I _install_ the Scripture Template? *
  * _Double-click on the Setup file, named *Silas-v2.05-xxx-Setup.exe*. Then follow the instructions that will appear. It is very important that you install it in this manner, because there are several other files and some macro items that need to be copied in addition to the .DOT file. You should read through the instructions that you will see at the end of the install job._
