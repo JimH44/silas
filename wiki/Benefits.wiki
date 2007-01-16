@@ -1,3 +1,4 @@
+#summary Why do I need Silas?
 = Why not just print the RTF file that comes out of my Scripture editing program? =
 
 The RTF files exported from these programs at present have
@@ -28,4 +29,3 @@ So that you can try out how your readers respond to different layout options, yo
  * point size
  * line spacing
  * columns -- single-column or double-column
-
