@@ -1,26 +1,23 @@
- #Questions you might ask about Silas
+Questions you might ask about Silas
 
-= FAQ – Frequently-Asked Questions about
-Silas – Smart Interactive Layout Assistant for Scripture =
+==FAQ – Frequently-Asked Questions about==
+==Silas – Smart Interactive Layout Assistant for Scripture==
 
-====How do I *install* the Scripture Template? ====
-
+====How do I _install_ the Scripture Template? ====
  _*Double-click on the Setup file, named *Silas-v2.05-xxx-Setup.exe*. Then follow the instructions that will appear. It is very important that you install it in this manner, because there are several other files and some macro items that need to be copied in addition to the .DOT file. You should read through the instructions that you will see at the end of the install job._
 
-====Does it contain the macros and buttons that the older Scripture templates had, such as ChangeSpacing, ChangeFont, Single/DoubleColumn?====
-
+====Does it contain the macros and buttons that the _older Scripture templates had_, such as ChangeSpacing, ChangeFont, Single/DoubleColumn?====
  _*Yes, this template contains all the formatting macros from the older templates—most have been improved. There are also two “mega-jobs” for “one-click” (well, almost…) formatting of either Draft Printouts for checking or Half-Page Booklets. You’ll find some new formatting features as well._
 
-====Is *SaveAsSFScripture* included, for getting the text from Word back into Standard Format?====
-
+====Is _SaveAsSFScripture_ included, for getting the text from Word back into Standard Format?====
  _*No, for a couple of reasons. There are issues with this macro if Unicode encoding is involved, and the recommended procedure for translation is to do *all editing* in Paratext or Translation Editor, using Word only for printing drafts of Scripture. So if you’ve exported a Scripture portion and you see a mistake, you should close the Word document, go back into Paratext (or TE), fix the problem, then do two saves:
-    *#File-->Save All* to update the disk file (or do Ctrl-S or click the diskette icon). 
-    *#File-->Save As-->RTF* again, to export a fresh copy into Word._
+    # *File-->Save All* to update the disk file (or do Ctrl-S or click the diskette icon). 
+    # *File-->Save As-->RTF* again, to export a fresh copy into Word._
 
-====Can I insert pictures into my Scripture portion? ====
- _*Yes, you can add pictures to proof printouts as well as to half-page booklets. The template contains some macros to help you find your USFM  picture marker codes and insert the pictures easily. Please open the file Adding pictures to Scripture files in Word.doc and print out the instructions there. You'll find a link to that file in the Quick Launch bar and in the START menu, in the group where the template and its files were installed, Silas by default._
+====Can I insert _pictures_ into my Scripture portion? ====
+ _*Yes, you can add pictures to proof printouts as well as to half-page booklets. The template contains some macros to help you find your USFM  picture marker codes and insert the pictures easily. Please open the file *Adding pictures to Scripture files in Word.doc* and print out the instructions there. You'll find a link to that file in the Quick Launch bar and in the START menu, in the group where the template and its files were installed, Silas by default._
 
-====How do I make a cover for the booklet?====
+====How do I make a _cover_ for the booklet?====
 _*Open the Scripture menu and choose option 4. This will take the title page of your booklet and make a new file from it, with the word cover added to the filename. This will be a landscape file, in two columns, with your title page on the right-hand side. Print this on coverstock, and there's your cover._
 
 ====Can I format a Glossary at the end of my Scripture portion booklet?====
