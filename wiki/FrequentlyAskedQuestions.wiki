@@ -1,4 +1,4 @@
-Questions you might ask about Silas
+#Questions you might ask about Silas
 
 ==FAQ – Frequently-Asked Questions about==
 ==Silas – Smart Interactive Layout Assistant for Scripture==
@@ -20,7 +20,7 @@ Questions you might ask about Silas
 ====How do I make a _cover_ for the booklet?====
 _*Open the Scripture menu and choose option 4. This will take the title page of your booklet and make a new file from it, with the word cover added to the filename. This will be a landscape file, in two columns, with your title page on the right-hand side. Print this on coverstock, and there's your cover._
 
-====Can I format a Glossary at the end of my Scripture portion booklet?====
+====Can I format a *Glossary* at the end of my Scripture portion booklet?====
 _*If you follow the guidelines for Glossary in the USFM document, usfm-2.05.pdf (available at http://confluence.ubs-icap.org/display/USFM/Home) then the macro will format the glossary properly with hanging-indented paragraphs. 
 For an outdented (ie. hanging indent) style, use \li instead of \pi for each definition paragraph._
 
