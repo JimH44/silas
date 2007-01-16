@@ -18,7 +18,7 @@ How do I make a *cover* for the booklet?
   Open the Scripture menu and choose option 4. This will take the title page of your booklet and make a new file from it, with the word cover added to the filename. This will be a landscape file, in two columns, with your title page on the right-hand side. Print this on coverstock, and there's your cover.
   
 Can I format a *Glossary* at the end of my Scripture portion booklet?
-  If you follow the guidelines for Glossary in the USFM document, *usfm-2.05.pdf* (available at http://confluence.ubs-icap.org/display/USFM/Home) then the macro will format the glossary properly with hanging-indented paragraphs. 
+  If you follow the guidelines for Glossary in the USFM document, *usfm-2.05.pdf* (available at http://ubs-icap.org/usfm) then the macro will format the glossary properly with hanging-indented paragraphs. 
 
    For an outdented (ie. hanging indent) style, use \li instead of \pi for each definition paragraph.
   
@@ -27,7 +27,7 @@ Can I print a *folded booklet* with the pages rearranged in the proper order?
   At present these macros do not work with Word 97.
   Another option is to use a program like ClickBook or FinePrint to do the page-pairing and print the booklets.
   
-What if I’m working with *more than one language project*? Can this template save settings for different languages?
+What if I’m working with *more than one language project* ? Can this template save settings for different languages?
   Yes. You will be able to type in your language name, province, country, the font you want to use, etc. The template will store this information for each language you enter, so each translation project will be printed using its own settings. If your Paratext \id line contains the name of the language or the project, the template can automatically find and attach the right settings!
   
 Can Silas work with RTF files from other programs, such as *Adapt It* and *Translation Editor*?
