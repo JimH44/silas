@@ -3,52 +3,52 @@
 ==FAQ – Frequently-Asked Questions about==
 ==Silas – Smart Interactive Layout Assistant for Scripture==
 
-====How do I _install_ the Scripture Template? ====
- _*Double-click on the Setup file, named *Silas-v2.05-xxx-Setup.exe*. Then follow the instructions that will appear. It is very important that you install it in this manner, because there are several other files and some macro items that need to be copied in addition to the .DOT file. You should read through the instructions that you will see at the end of the install job._
+*How do I _install_ the Scripture Template? *
+ * _Double-click on the Setup file, named *Silas-v2.05-xxx-Setup.exe*. Then follow the instructions that will appear. It is very important that you install it in this manner, because there are several other files and some macro items that need to be copied in addition to the .DOT file. You should read through the instructions that you will see at the end of the install job._
 
-====Does it contain the macros and buttons that the _older Scripture templates had_, such as ChangeSpacing, ChangeFont, Single/DoubleColumn?====
- _*Yes, this template contains all the formatting macros from the older templates—most have been improved. There are also two “mega-jobs” for “one-click” (well, almost…) formatting of either Draft Printouts for checking or Half-Page Booklets. You’ll find some new formatting features as well._
+*Does it contain the macros and buttons that the _older Scripture templates had_, such as ChangeSpacing, ChangeFont, Single/DoubleColumn?*
+ * _Yes, this template contains all the formatting macros from the older templates—most have been improved. There are also two “mega-jobs” for “one-click” (well, almost…) formatting of either Draft Printouts for checking or Half-Page Booklets. You’ll find some new formatting features as well._
 
-====Is _SaveAsSFScripture_ included, for getting the text from Word back into Standard Format?====
- _*No, for a couple of reasons. There are issues with this macro if Unicode encoding is involved, and the recommended procedure for translation is to do *all editing* in Paratext or Translation Editor, using Word only for printing drafts of Scripture. So if you’ve exported a Scripture portion and you see a mistake, you should close the Word document, go back into Paratext (or TE), fix the problem, then do two saves:
+*Is _SaveAsSFScripture_ included, for getting the text from Word back into Standard Format?*
+ * _No, for a couple of reasons. There are issues with this macro if Unicode encoding is involved, and the recommended procedure for translation is to do *all editing* in Paratext or Translation Editor, using Word only for printing drafts of Scripture. So if you’ve exported a Scripture portion and you see a mistake, you should close the Word document, go back into Paratext (or TE), fix the problem, then do two saves:
     # *File-->Save All* to update the disk file (or do Ctrl-S or click the diskette icon). 
     # *File-->Save As-->RTF* again, to export a fresh copy into Word._
 
-====Can I insert _pictures_ into my Scripture portion? ====
- _*Yes, you can add pictures to proof printouts as well as to half-page booklets. The template contains some macros to help you find your USFM  picture marker codes and insert the pictures easily. Please open the file *Adding pictures to Scripture files in Word.doc* and print out the instructions there. You'll find a link to that file in the Quick Launch bar and in the START menu, in the group where the template and its files were installed, Silas by default._
+*Can I insert _pictures_ into my Scripture portion? *
+ * _Yes, you can add pictures to proof printouts as well as to half-page booklets. The template contains some macros to help you find your USFM  picture marker codes and insert the pictures easily. Please open the file *Adding pictures to Scripture files in Word.doc* and print out the instructions there. You'll find a link to that file in the Quick Launch bar and in the START menu, in the group where the template and its files were installed, Silas by default._
 
-====How do I make a _cover_ for the booklet?====
-_*Open the Scripture menu and choose option 4. This will take the title page of your booklet and make a new file from it, with the word cover added to the filename. This will be a landscape file, in two columns, with your title page on the right-hand side. Print this on coverstock, and there's your cover._
+*How do I make a _cover_ for the booklet?*
+ * _Open the Scripture menu and choose option 4. This will take the title page of your booklet and make a new file from it, with the word cover added to the filename. This will be a landscape file, in two columns, with your title page on the right-hand side. Print this on coverstock, and there's your cover._
 
-====Can I format a *Glossary* at the end of my Scripture portion booklet?====
-_*If you follow the guidelines for Glossary in the USFM document, usfm-2.05.pdf (available at http://confluence.ubs-icap.org/display/USFM/Home) then the macro will format the glossary properly with hanging-indented paragraphs. 
+*Can I format a *Glossary* at the end of my Scripture portion booklet?*
+ * _If you follow the guidelines for Glossary in the USFM document, usfm-2.05.pdf (available at http://confluence.ubs-icap.org/display/USFM/Home) then the macro will format the glossary properly with hanging-indented paragraphs. 
 For an outdented (ie. hanging indent) style, use \li instead of \pi for each definition paragraph._
 
-====Can I print a folded booklet with the pages rearranged in the proper order?====
-_*Many printers have a “Booklet” setting to help you do this. Or you may use the Booklet Macros job that you’ll find in the Start Menu folder for the Scripture template (Silas). This macro was written by Mark Penny and will automatically rearrange your pages and print them “two-up,” or “four-up” if you prefer a quarter-page booklet. If your printer can do "duplex printing" (ie. print on both sides of each sheet), select the option for that before you print._
+*Can I print a folded booklet with the pages rearranged in the proper order?*
+ * _Many printers have a “Booklet” setting to help you do this. Or you may use the Booklet Macros job that you’ll find in the Start Menu folder for the Scripture template (Silas). This macro was written by Mark Penny and will automatically rearrange your pages and print them “two-up,” or “four-up” if you prefer a quarter-page booklet. If your printer can do "duplex printing" (ie. print on both sides of each sheet), select the option for that before you print._
 
-====At present these macros do not work with Word 97.====
+*At present these macros do not work with Word 97.*
 _*Another option is to use a program like ClickBook or FinePrint to do the page-pairing and print the booklets._
 
-====What if I’m working with more than one language project? Can this template save settings for different languages?====
-_*Yes. You will be able to type in your language name, province, country, the font you want to use, etc. The template will store this information for each language you enter, so each translation project will be printed using its own settings. If your Paratext \id line contains the name of the language or the project, the template can automatically find and attach the right settings!_
+*What if I’m working with more than one language project? Can this template save settings for different languages?*
+ * _Yes. You will be able to type in your language name, province, country, the font you want to use, etc. The template will store this information for each language you enter, so each translation project will be printed using its own settings. If your Paratext \id line contains the name of the language or the project, the template can automatically find and attach the right settings!_
 
-====Can Silas work with RTF files from other programs, such as Adapt It and Translation Editor?====
-_*Yes. The macro that runs from the item Attach USFM Scripture Template converts the stylenames to match the latest version of USFM, even for files from TE and for old files and for files generated using an old version of the USFM standard. When older stylenames are updated, an item is written in the [Messages] section of the file "Languages.ini" in the Paratext settings folder.
+*Can Silas work with RTF files from other programs, such as Adapt It and Translation Editor?*
+ * _Yes. The macro that runs from the item Attach USFM Scripture Template converts the stylenames to match the latest version of USFM, even for files from TE and for old files and for files generated using an old version of the USFM standard. When older stylenames are updated, an item is written in the [Messages] section of the file "Languages.ini" in the Paratext settings folder.
 
 If you are an advanced user of Translation Editor, you may find that a few features of that program (such as a different font for Old Testament quotations as well as indentation) may be lost when the Silas template is attached. If that happens, take the longer path – 
-     *export from TE to Standard Format, 
-     *open the project in Paratext
-     *run consistency checks in Paratext
-     *export to RTF and attach the Silas template
-     *format for proof or booklet printouts_
+     * export from TE to Standard Format, 
+     * open the project in Paratext
+     * run consistency checks in Paratext
+     * export to RTF and attach the Silas template
+     * format for proof or booklet printouts_
 
-====I lost my modified version of USFM.sty when I installed Silas!====
-_*Not really. If you had a modified version of USFM.sty or USFM_draft.sty with the same name, it will have been renamed and moved into a folder called old versions when you installed Silas. We suggest you give it a name that will show that this is a non-standard stylesheet and copy it back to your Paratext settings folder. Then in Paratext, select the project and do Ctrl-J to open the project properties dialog, and tell Paratext to use your modified stylesheet. Then modify the appropriate update control file as described in the answer to the next question._
+*I lost my modified version of USFM.sty when I installed Silas!*
+ * _Not really. If you had a modified version of USFM.sty or USFM_draft.sty with the same name, it will have been renamed and moved into a folder called old versions when you installed Silas. We suggest you give it a name that will show that this is a non-standard stylesheet and copy it back to your Paratext settings folder. Then in Paratext, select the project and do Ctrl-J to open the project properties dialog, and tell Paratext to use your modified stylesheet. Then modify the appropriate update control file as described in the answer to the next question._
 
-====Can Silas work with RTF files from a Paratext project that uses a modified style sheet?====
+*Can Silas work with RTF files from a Paratext project that uses a modified style sheet?*
 
-_*Yes, if you add entries at the end of the update control file Custom_Styles.txt in the installation folder, usually C:\Program Files\Silas. Here's a sample line from Recent_Styles.txt:
+ * _Yes, if you add entries at the end of the update control file Custom_Styles.txt in the installation folder, usually C:\Program Files\Silas. Here's a sample line from Recent_Styles.txt:
 	h - Heading - Header; h - File – Header
 This updates the old page heading stylename (h - Heading - Header) to the new version of the name. 
 Similarly, the following line from TE_Styles.txt changes the Translation Editor stylename Title Main to the USFM equivalent:
