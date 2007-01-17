@@ -1,7 +1,7 @@
 #summary Questions you might have about Silas
 ==FAQ – Frequently-Asked Questions about Silas – Smart Interactive Layout Assistant for Scripture==
 How do I *install* the Scripture Template? 
-  Double-click on the Setup file, named *Silas-v2.05-xxx-Setup.exe*. Then follow the instructions that will appear. It is very important that you install it in this manner, because there are several other files and some macro items that need to be copied in addition to the .DOT file. You should read through the instructions that you will see at the end of the install job.
+  Download the file, [http://silas.googlecode.com/files/Silas-v2.05-1.020-Setup.exe Silas-v2.05-xxx-Setup.exe], from the Downloads tab above. Save it onto your computer, then double-click on this file to begin the installation. Then follow the instructions that will appear. It is very important that you install it in this manner, because there are several other files and some macro items that need to be copied in addition to the .DOT file. You should read through the instructions that you will see at the end of the install job.
 
 Does it contain the macros and buttons that the *older Scripture templates had*, such as ChangeSpacing, ChangeFont, Single/DoubleColumn?
   Yes, this template contains all the formatting macros from the older templates—most have been improved. There are also two “mega-jobs” for “one-click” (well, almost…) formatting of either Draft Printouts for checking or Half-Page Booklets. You’ll find some new formatting features as well.
@@ -30,7 +30,7 @@ Can I print a *folded booklet* with the pages rearranged in the proper order?
 What if I’m working with *more than one language project* ? Can this template save settings for different languages?
   Yes. You will be able to type in your language name, province, country, the font you want to use, etc. The template will store this information for each language you enter, so each translation project will be printed using its own settings. If your Paratext \id line contains the name of the language or the project, the template can automatically find and attach the right settings!
   
-Can Silas work with RTF files from other programs, such as [http://adaptit.ebt.cx/ *Adapt It* ] and [http://www.sil.org/computing/fieldworks/TE/ *Translation Editor* ]?
+Can Silas work with RTF files from other programs, such as [http://adaptit.ebt.cx/ Adapt It] and [http://www.sil.org/computing/fieldworks/TE/ Translation Editor]?
   Yes. The macro that runs from the item *Attach USFM Scripture Template* converts the stylenames to match the latest version of USFM, even for files from TE and for old files and for files generated using an old version of the USFM standard. When older stylenames are updated, an item is written in the [Messages] section of the file "Languages.ini" in the Paratext settings folder.
 
 If you are an advanced user of Translation Editor, you may find that a few features of that program (such as a different font for Old Testament quotations as well as indentation) may be lost when the Silas template is attached. If that happens, take the longer path – 
