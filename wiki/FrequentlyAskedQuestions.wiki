@@ -7,7 +7,7 @@ Does it contain the macros and buttons that the *older Scripture templates had*,
   Yes, this template contains all the formatting macros from the older templates—most have been improved. There are also two “mega-jobs” for “one-click” (well, almost…) formatting of either Draft Printouts for checking or Half-Page Booklets. You’ll find some new formatting features as well.
 
 Is *SaveAsSFScripture* included, for getting the text from Word back into Standard Format?
-  No, for a couple of reasons. There are issues with this macro if Unicode encoding is involved, and the recommended procedure for translation is to do *all editing* in Paratext or Translation Editor, using Word only for printing drafts of Scripture. So if you’ve exported a Scripture portion and you see a mistake, you should close the Word document, go back into Paratext (or TE), fix the problem, then do two saves:
+  No, for a couple of reasons. There are issues with this macro if Unicode encoding is involved, and the recommended procedure for translation is to do *all editing* in [http://paratext.ubs-translations.org/public/home.html Paratext] or [http://www.sil.org/computing/fieldworks/TE/ Translation Editor], using Word only for printing drafts of Scripture. So if you’ve exported a Scripture portion and you see a mistake, you should close the Word document, go back into Paratext (or TE), fix the problem, then do two saves:
     # *File-->Save All* to update the disk file (or do Ctrl-S or click the diskette icon). 
     # *File-->Save As-->RTF* again, to export a fresh copy into Word.
 
