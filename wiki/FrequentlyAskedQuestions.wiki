@@ -31,7 +31,7 @@ What if I’m working with *more than one language project* ? Can this template 
   Yes. You will be able to type in your language name, province, country, the font you want to use, etc. The template will store this information for each language you enter, so each translation project will be printed using its own settings. If your Paratext \id line contains the name of the language or the project, the template can automatically find and attach the right settings!
   
 Can Silas work with RTF files from other programs, such as [http://adaptit.ebt.cx/ Adapt It] and [http://www.sil.org/computing/fieldworks/TE/ Translation Editor (TE)]?
-  Yes. The macro that runs from the item *Attach USFM Scripture Template* converts the stylenames to match the latest version of USFM, even for files from TE and for old files and for files generated using an old version of the USFM standard. When older stylenames are updated, an item is written in the "[Messages]" section of the file _Languages.ini_ in the Paratext settings folder.
+  Yes. The macro that runs from the item *Attach USFM Scripture Template* converts the stylenames to match the latest version of USFM, even for files from TE and for old files and for files generated using an old version of the USFM standard. When older stylenames are updated, an item is written in the "Messages" section of the file _Languages.ini_ in the Paratext settings folder.
 
 If you are an advanced user of Translation Editor, you may find that a few features of that program (such as a different font for Old Testament quotations as well as indentation) may be lost when the Silas template is attached. If that happens, take the longer path – 
      * export from TE to Standard Format, 
