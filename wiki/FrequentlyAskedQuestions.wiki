@@ -25,7 +25,7 @@ Can I format a *Glossary* at the end of my Scripture portion booklet?
 Can I print a *folded booklet* with the pages rearranged in the proper order?
   Many printers have a “Booklet” setting to help you do this. Or you may use the Booklet Macros job that you’ll find in the Start Menu folder for the Scripture template (*Silas*). This macro was written by Mark Penny and will automatically rearrange your pages and print them “two-up,” or “four-up” if you prefer a quarter-page booklet. If your printer can do "duplex printing" (ie. print on both sides of each sheet), select the option for that before you print.
   At present these macros do not work with Word 97.
-  Another option is to use a program like ClickBook or FinePrint to do the page-pairing and print the booklets.
+  Another option is to use a program like [www.bluesquirrel.com/clickbook ClickBook] or [http://www.fineprint.com/products/fineprint/index.html FinePrint] to do the page-pairing and print the booklets.
   
 What if I’m working with *more than one language project* ? Can this template save settings for different languages?
   Yes. You will be able to type in your language name, province, country, the font you want to use, etc. The template will store this information for each language you enter, so each translation project will be printed using its own settings. If your Paratext \id line contains the name of the language or the project, the template can automatically find and attach the right settings!
