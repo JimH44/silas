@@ -23,7 +23,7 @@ and the checksum listed there is
 4eaf30b9c1a2b802149d79e1cfe15fe30c991bd3
 
 You can get a program that will calculate the SHA1 value for the file you have downloaded,
-AccuHash, at http://www.accuhash.com/
+!AccuHash, at http://www.accuhash.com/
 
 Install it, then run it and Browse to the file you downloaded. 
 Set the Hash type to SHA1, and the Encoding to Hexadecimal.
