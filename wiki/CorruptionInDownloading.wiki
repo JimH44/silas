@@ -7,7 +7,9 @@ The download may have failed, and the downloaded file might be too short, or cor
 
 = How to check =
 
-When you try to run the installation program you just downloaded, you may get a message that the file is corrupt. If that happens, you could check the checksum, which is listed on the _Downloads_ page. 
+When you try to run the installation program you just downloaded, you may get a message that the file is corrupt. If that happens, the first thing to check is the *size of the file* that's just been copied on your computer: It should be the same size (within a few KB--some programs report size differently) as the file on the Downloads page of this website. If your copy is smaller, then the download did not finish properly and you should download the whole file again.
+
+If this doesn't help and you want to explore further, you could check the *checksum*, which is listed on the _Downloads_ page. 
 
 (Open the _Downloads_ page and click on the _Summary_ for the file you want to download (it might be, "Silas installation file"). 
 
