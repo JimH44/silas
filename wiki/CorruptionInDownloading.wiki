@@ -29,7 +29,11 @@ Install it, then run it and Browse to the file you downloaded.
 Set the Hash type to SHA1, and the Encoding to Hexadecimal.
 
 Operate the Calculate button, and the program will calculate the SHA1 value for the file.
+
 On the web page for the Silas download, select the SHA1 value, copy it to the clipboard
 and paste it into the Original hash value field and operate the Compare button.
+
 If the two values match, the download happened properly. 
 If not, download again and check again.
+
+Calculate the value for the newly-downloaded file and compare again. When they match, try to run the executable file. If it still won't run, please email one of the managers of the project.
