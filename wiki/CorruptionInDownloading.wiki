@@ -17,10 +17,10 @@ Another page will open, listing the SHA1 checksum.)
 (SHA stands for Secure Hash Algorithm)
 
 In this case, the page that will open is
-http://code.google.com/p/silas/downloads/detail?name=USFM%20instructions-v2.05-Setup.exe&can=2&q=
+http://code.google.com/p/silas/downloads/detail?name=Silas-v2.05-1.020-Setup.exe&can=2&q=
 
 and the checksum listed there is
-39b2f1c2cf64c82daf20450080b12c3d050c1cce
+4eaf30b9c1a2b802149d79e1cfe15fe30c991bd3
 
 You can get a program that will calculate the SHA1 value for the file you have downloaded,
 AccuHash, at http://www.accuhash.com/
@@ -33,4 +33,3 @@ On the web page for the Silas download, select the SHA1 value, copy it to the cl
 and paste it into the Original hash value field and operate the Compare button.
 If the two values match, the download happened properly. 
 If not, download again and check again.
-
