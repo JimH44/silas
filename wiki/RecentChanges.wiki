@@ -5,12 +5,35 @@ Revision History for Silas.DOT
 
  * Provide drop-down list of 3-letter booknames in ID form?--only aesthetic value during setup; the bookname isn't used for anything nor is it visible (except for ID footers in Proofs). We could do it with a txt file such as	Recent_Styles.txt.
  * Add horizontal rule between intro and Scr text even if single-column?
- * (eventually) add custom `\z*` style support, probably just copy the style into the template so it doesn't hang up
+ * (eventually) add custom `\z*` style support, probably copy the style into the template so it doesn't hang up, perhaps open edit style dialog to format char styles right.
  * check into more automated picture placement (see Toolbox macro by Steve White)
- * Perhaps in some cases we could turn off screen updating rather than changing View to wdNormal? Ck it out when there's time.
-  * Jim: I don't think so. The change to Normal view is to stop "Word is repaginating..." over and over.
 
 =Recent changes=
+==Silas 2.05-1.027 by Kim, 3 Feb 2007==
+Button in Proofs dialog to bring up checking table for editing.
+Inserted checking table is resized to fit margins, like old v was.
+Install modif. so if Custom_styles.txt and Checking Table.doc are already in 
+   template folder, they're not overwritten. Then they won't have to retrieve their 
+   old custom files every time they install a new Silas v.
+	
+==Silas 2.05-1.026 by Jim, 3 Feb 2007==
+Checking table in ID footers now comes from an included file in template folder 
+   that people can edit.
+   Install protects their version in "old versions" folder.
+Custom_styles.txt now copied to Pt settings folder, and preserved in "old versions" 
+   during updates.
+
+==Silas 2.05-1.025 by Kim, 1 Feb 2007==
+Fixed bug in FormatForProofPrintout when canceling this macro from the dialog, 
+   redid Cancel variable for both Format macros
+Reordered FormatForHalfPage to make the dialog show faster
+Changed LineSpacing menu item from toggle to submenu, LineSpacing button to dialog
+More tweaks to Scripture menu items
+
+==Silas 2.05-1.024 by Jim, 29 Jan 2007==
+Fixed bug in InstallScrTemplate module that prevented self-updating.
+Added question to FAQ file about printing in different scripts.
+
 ==Silas 2.05-1.023 by Kim, 21 Jan 2007==
 Fixed two bugs in 1.020
 Added dialog to Format for Proof Printouts: formatting choices for this printout
