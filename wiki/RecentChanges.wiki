@@ -10,9 +10,9 @@ Revision History for Silas.DOT
 
 =Recent changes=
 ==Silas 2.05-1.027 by Kim, 3 Feb 2007==
-* Button in Proofs dialog to bring up checking table for editing.
-* Inserted checking table is resized to fit margins, like old v was.
-* Install modif. so if Custom_styles.txt and Checking Table.doc are already in template folder, they're not overwritten. Then they won't have to retrieve their old custom files every time they install a new Silas v.
+ * Button in Proofs dialog to bring up checking table for editing.
+ * Inserted checking table is resized to fit margins, like old v was.
+ * Install modif. so if Custom_styles.txt and Checking Table.doc are already in template folder, they're not overwritten. Then they won't have to retrieve their old custom files every time they install a new Silas v.
 	
 ==Silas 2.05-1.026 by Jim, 3 Feb 2007==
 *Checking table in ID footers now comes from an included file in template folder that people can edit. Install protects their version in "old versions" folder.
