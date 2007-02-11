@@ -9,6 +9,21 @@ Revision History for Silas.DOT
  * check into more automated picture placement (see Toolbox macro by Steve White)
 
 =Recent changes=
+==Silas 2.05-1.031 by Kim, 10 Feb 2007==
+ * Added menu item "Read about printing booklets", opens Word Booklet Macros.doc.
+ * Widened all text boxes & labels in dialogs (forms) so hi-res monitors don't choke on them.
+ * Fixed bug in HalfPage dialog, and added context to "Install Booklet Macros" so it's disabled if they're installed already (but you can still open the doc from Scripture menu).
+
+==Silas 2.05-1.030 by Jim, 9 Feb 2007==
+ * Added Install Booklet Macros button to Booklet style form, and removed installing booklet macros from Install Silas.doc. Modified FAQ document to match.
+ * Removes explicit font formatting from verse numbers and footnote markers, because Pt adds it for RTL text.
+ * If you edit the checking table for a language/project, you edit a specific file for that project, and Languages.ini remembers its name.
+
+==Silas 2.05-1.028 by Jim, 5 Feb 2007==
+ * Updated screenshot of Scripture menu in template text, and the description of menus, booklet macros etc.
+ * In Install.doc, moved check for custom file to the right place, about destination, not source. Also using a boolean argument to put ref to filename in a safer place.
+ * In FAQ file, comments on the two custom files now match the program logic.
+
 ==Silas 2.05-1.027 by Kim, 3 Feb 2007==
  * Button in Proofs dialog to bring up checking table for editing.
  * Inserted checking table is resized to fit margins, like old v was.
