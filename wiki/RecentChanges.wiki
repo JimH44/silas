@@ -1,14 +1,21 @@
-#summary Summary of recent changes, to version 2.05-1.023
+#summary Summary of recent changes, to version 2.05-1.032
 Revision History for Silas.DOT
 
 =NEEDED=
 
- * Provide drop-down list of 3-letter booknames in ID form?--only aesthetic value during setup; the bookname isn't used for anything nor is it visible (except for ID footers in Proofs). We could do it with a txt file such as	Recent_Styles.txt.
+ * Provide drop-down list of 3-letter booknames in ID form?--only aesthetic value during  setup; the bookname isn't used for anything nor is it visible (except for ID footers in Proofs). We could do it with a txt file such as	Recent_Styles.txt.
  * Add horizontal rule between intro and Scr text even if single-column?
  * (eventually) add custom `\z*` style support, probably copy the style into the template so it doesn't hang up, perhaps open edit style dialog to format char styles right.
  * check into more automated picture placement (see Toolbox macro by Steve White)
 
 =Recent changes=
+==Silas 2.05-1.032 by Jim, 12 Feb 2007==
+ * Calling SetPathVariables more often to make sure variables are set.
+ * Booklet Macros button renamed to Print booklet.
+ * FAQ file updated.
+ * Scripture menu now has item to display Print Booklet macro document, for its instructions.
+ * Fixed: HeaderOther doesn't update to Inifile
+
 ==Silas 2.05-1.031 by Kim, 10 Feb 2007==
  * Added menu item "Read about printing booklets", opens Word Booklet Macros.doc.
  * Widened all text boxes & labels in dialogs (forms) so hi-res monitors don't choke on them.
