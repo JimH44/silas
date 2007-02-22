@@ -20,7 +20,7 @@ I would like to have two lists:
 ==If you would like to help==
 If you would like to join either list (or both), pls send an email
 back to me at
-   mailto://Jim.Henderson44@gmail.com
+   mailto:Jim.Henderson44@gmail.com
 stating your intention.
 
 I'll compile the list and share it with Kim, but no further.
@@ -34,7 +34,9 @@ to the clip board, click on my email address above, and paste into the
 message, then fill in the blanks and send:
 
    Alpha test list: yes/no
+
    Beta test list: yes/no
+
    Use BCC field: yes/no
 
 Thanks for considering this request,
