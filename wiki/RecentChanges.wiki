@@ -1,4 +1,4 @@
-#summary Summary of recent changes, to version 2.05-1.032
+#summary Summary of recent changes, to version 2.05-1.036
 Revision History for Silas.DOT
 
 =NEEDED=
@@ -9,6 +9,32 @@ Revision History for Silas.DOT
  * check into more automated picture placement (see Toolbox macro by Steve White)
 
 =Recent changes=
+==Silas 2.05-1.036 by Jim, 23 Feb 2007==
+ * Fixed problem with checking to see if variables exist, now that all modules are Option Explicit, using separate module which is not, called "Exists"
+ * FixQuotes no longer finishes with some text selected.
+ * MakeCoverPage no longer mangles Scripture->3 menu (by not deleting last paragraph mark from template when the file is created.) Also, main text document is not left with title page selected.
+ * Booklet macros file updated to 2.56.
+ * Standard message string strGeneralReinstall used in some message boxes now.
+ * Quite a few places had an error trap turned on, but not turned off correctly -- fixed.
+ * Changed "Normal" stylename into defined constant wdStyleNormal for non-English versions of Word, in all documents.
+ * Name of checking table for this language remembered better, in dbLanguageListFromIni.frm.
+ * When we are processing all the footnotes, sometimes Word can't find one of them. This problem now ignored, and that footnote skipped.
+ * More explicit type checking by VBA threw up some errors that weren't a problem before. Code fixed.
+
+==Silas 2.05-1.034 by Jim, 20 Feb 2007==
+
+ * Fixed bug in adding fixed spaces after verse numbers: infinite loop if there is no text following a verse number.
+ * Avoided random crashes by making all modules Option Explicit and putting a Dim statement for each variable.
+ * Fixed setting of .LineSpacingRule value, and some other wrong data references.
+ * Fixed problem with character styles from TE (such as Chapter Number becoming paragraph style "c - Chapter Number"), where there isn't any paragraph mark at the beginning.
+ * Fixed bug in order of info in front pages if 2 columns alredy when job 2 run.
+ * Fixed bug in which Pictures sub-menu changed by making cover document.
+ * Reinstated hotkey in AskForHeaders form & abbreviated item for ID line.
+ * Variable for Checking table now set when there is no ID line in the file, if user does dialogue box OK.
+
+==Silas 2.05-1.033 by Kim, 16 Feb 2007==
+ * Fixed bug in "Add new language" that prevented adding of a new language.
+
 ==Silas 2.05-1.032 by Jim, 12 Feb 2007==
  * Calling SetPathVariables more often to make sure variables are set.
  * Booklet Macros button renamed to Print booklet.
