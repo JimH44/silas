@@ -1,4 +1,5 @@
 #summary Summary of recent changes, to version 2.05-1.040
+#labels Featured
 Revision History for Silas.DOT
 
 =NEEDED=
