@@ -16,8 +16,8 @@ Revision History for Silas.DOT
  * Fixed bug in line spacing dialog if user cancels.
  * Fixed bug in making filename for custom checking table.
  * Even margins now one inch each side, now for Letter-sized paper as well as A4.
- * Fixed font for `_Heading_Base`, now inherited properly. Also, Advanced button refers to Heading font, as does the message in changeFont routine.
- * Moved module AttachUSFMTemplate from Silas.dot to Install Silas.doc in the hope of fixing the problem with people being unable to copy it to Normal.dot sometimes.
+ * Fixed font for `_Heading_Base`, now inherited properly. Also, Advanced button refers to Heading font, as does the message in !changeFont routine.
+ * Moved module !AttachUSFMTemplate from Silas.dot to Install Silas.doc in the hope of fixing the problem with people being unable to copy it to Normal.dot sometimes.
  * Added `\q4` style, and adjusted indentations for `\q#` styles to reduce ambiguity.
  * Size of `\r` changed to 90% of normal, and `\mr` to 110% of normal.
  * Fixed reference to menu item "Set language and paper size".
@@ -33,13 +33,13 @@ Revision History for Silas.DOT
 
 ==Silas 2.05-1.036 by Jim, 23 Feb 2007==
  * Fixed problem with checking to see if variables exist, now that all modules are Option Explicit, using separate module which is not, called "Exists"
- * FixQuotes no longer finishes with some text selected.
- * MakeCoverPage no longer mangles Scripture->3 menu (by not deleting last paragraph mark from template when the file is created.) Also, main text document is not left with title page selected.
+ * !FixQuotes no longer finishes with some text selected.
+ * !MakeCoverPage no longer mangles Scripture->3 menu (by not deleting last paragraph mark from template when the file is created.) Also, main text document is not left with title page selected.
  * Booklet macros file updated to 2.56.
- * Standard message string strGeneralReinstall used in some message boxes now.
+ * Standard message string !strGeneralReinstall used in some message boxes now.
  * Quite a few places had an error trap turned on, but not turned off correctly -- fixed.
- * Changed "Normal" stylename into defined constant wdStyleNormal for non-English versions of Word, in all documents.
- * Name of checking table for this language remembered better, in dbLanguageListFromIni.frm.
+ * Changed "Normal" stylename into defined constant !wdStyleNormal for non-English versions of Word, in all documents.
+ * Name of checking table for this language remembered better, in !dbLanguageListFromIni.frm.
  * When we are processing all the footnotes, sometimes Word can't find one of them. This problem now ignored, and that footnote skipped.
  * More explicit type checking by VBA threw up some errors that weren't a problem before. Code fixed.
 
@@ -47,27 +47,27 @@ Revision History for Silas.DOT
 
  * Fixed bug in adding fixed spaces after verse numbers: infinite loop if there is no text following a verse number.
  * Avoided random crashes by making all modules Option Explicit and putting a Dim statement for each variable.
- * Fixed setting of .LineSpacingRule value, and some other wrong data references.
+ * Fixed setting of `.LineSpacingRule` value, and some other wrong data references.
  * Fixed problem with character styles from TE (such as Chapter Number becoming paragraph style "c - Chapter Number"), where there isn't any paragraph mark at the beginning.
  * Fixed bug in order of info in front pages if 2 columns alredy when job 2 run.
  * Fixed bug in which Pictures sub-menu changed by making cover document.
- * Reinstated hotkey in AskForHeaders form & abbreviated item for ID line.
+ * Reinstated hotkey in `AskForHeaders` form & abbreviated item for ID line.
  * Variable for Checking table now set when there is no ID line in the file, if user does dialogue box OK.
 
 ==Silas 2.05-1.033 by Kim, 16 Feb 2007==
  * Fixed bug in "Add new language" that prevented adding of a new language.
 
 ==Silas 2.05-1.032 by Jim, 12 Feb 2007==
- * Calling SetPathVariables more often to make sure variables are set.
+ * Calling `SetPathVariables` more often to make sure variables are set.
  * Booklet Macros button renamed to Print booklet.
  * FAQ file updated.
  * Scripture menu now has item to display Print Booklet macro document, for its instructions.
- * Fixed: HeaderOther doesn't update to Inifile
+ * Fixed: `HeaderOther` doesn't update to Inifile
 
 ==Silas 2.05-1.031 by Kim, 10 Feb 2007==
  * Added menu item "Read about printing booklets", opens Word Booklet Macros.doc.
  * Widened all text boxes & labels in dialogs (forms) so hi-res monitors don't choke on them.
- * Fixed bug in HalfPage dialog, and added context to "Install Booklet Macros" so it's disabled if they're installed already (but you can still open the doc from Scripture menu).
+ * Fixed bug in !HalfPage dialog, and added context to "Install Booklet Macros" so it's disabled if they're installed already (but you can still open the doc from Scripture menu).
 
 ==Silas 2.05-1.030 by Jim, 9 Feb 2007==
  * Added Install Booklet Macros button to Booklet style form, and removed installing booklet macros from Install Silas.doc. Modified FAQ document to match.
