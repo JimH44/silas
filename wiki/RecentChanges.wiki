@@ -16,13 +16,13 @@ Revision History for Silas.DOT
  * Fixed bug in line spacing dialog if user cancels.
  * Fixed bug in making filename for custom checking table.
  * Even margins now one inch each side, now for Letter-sized paper as well as A4.
- * Fixed font for !_Heading_Base, now inherited properly. Also, Advanced button refers to Heading font, as does the message in changeFont routine.
+ * Fixed font for '_Heading_Base', now inherited properly. Also, Advanced button refers to Heading font, as does the message in changeFont routine.
  * Moved module AttachUSFMTemplate from Silas.dot to Install Silas.doc in the hope of fixing the problem with people being unable to copy it to Normal.dot sometimes.
  * Added '\q4' style, and adjusted indentations for '\q#' styles to reduce ambiguity.
  * Size of '\r' changed to 90% of normal, and '\mr' to 110% of normal.
  * Fixed reference to menu item "Set language and paper size".
  * Fixed bug, spacing before '\rq' style now set to zero.
- * Changed "Chapter Drop" style to "!_Chapter_Drop", to avoid risk of matching Like "c*" tests.
+ * Changed "Chapter Drop" style to '"!_Chapter_Drop"', to avoid risk of matching Like '"c*"' tests.
  * Now deleting replaced styles again in StyleNames_RenameText,	to avoid risk of their matching "Like" tests spuriously.
  * Fixed missing error description messages by moving "On Error goto 0" below the Err.Description reference.
  * Fixed problem with Japanese Word doing box for no-break space after verse numbers.
