@@ -8,7 +8,7 @@ Revision History for Silas.DOT
  * Add horizontal rule between intro and Scr text even if single-column?
  * (eventually) add custom `\z*` style support, probably copy the style into the template so it doesn't hang up, perhaps open edit style dialog to format char styles right.
  * check into more automated picture placement (see Toolbox macro by Steve White)
- * Work out how to avoid headers and footers being displaced in proof printouts when there are wide right margins and double-sided layout. (If you run ProofPrintouts with even margins, then "Increase right margin" using menu item, the headers & footers stay full-width.)
+ * Work out how to avoid headers and footers being displaced in proof printouts when there are wide right margins and double-sided layout. (If you run ProofPrintouts with even margins, then "Increase right margin" using menu item, headers & footers stay (properly) full-width. "Lay out for double-sided" moves left margin for H & F on *even* pages; right margins work correctly on both pages. H & F should be exempt from both of these layout macros.)
  * To solve the problem of lines not matching up, think about having a blank line with "keep with next" attribute before each section heading, instead of setting Space before in the `\s` style. -- coming in a later build.
 
 =Recent changes=
