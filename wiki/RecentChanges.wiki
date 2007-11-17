@@ -6,7 +6,7 @@ Revision History for Silas.DOT
 
  * Provide drop-down list of 3-letter booknames in ID form? -- only aesthetic value during setup; the bookname isn't used for anything nor is it visible (except for ID footers in Proofs). We could do it with a txt file such as	Recent_Styles.txt.
  * Add horizontal rule between intro and Scr text even if single-column?
- * (eventually) add custom \z* style support, probably just copy the style into the template so it doesn't hang up. Perhaps note to user about adding to template & formatting it as desired so it'll update next time.
+ * (eventually) add custom `\z*` style support, probably just copy the style into the template so it doesn't hang up. Perhaps note to user about adding to template & formatting it as desired so it'll update next time.
 
  * check into more automated picture placement (see Toolbox macro by Steve White)
  * Work out how to avoid headers and footers being displaced in proof printouts when there are wide right margins and double-sided layout.
@@ -19,12 +19,10 @@ Revision History for Silas.DOT
  * Build number jumped up to avoid looking like 2.05-1.04
  * Removed confusing instruction to print instructions in "Install Silas.doc"
  * Made a few minor changes to "FAQ Silas.doc"
- * Fixed errors in *_Styles.txt files
- * Added _sts stylename to list stepped over when adding section break
-	between 1-column intro material and 2-column text material.
+ * Fixed errors in `*_Styles.txt` files
+ * Added _sts stylename to list stepped over when adding section break between 1-column intro material and 2-column text material.
  * When verse codes found in chapter style, "Continue anyway" button now continues.
- * Stylename updating tested OK for all versions of USFM:
-	1.5, 1.54, 2.0, 2.04, 2.041, 2.05, 2.1, 2.101
+ * Stylename updating tested OK for all versions of USFM: 1.5, 1.54, 2.0, 2.04, 2.041, 2.05, 2.1, 2.101
 
 ==Silas 2.101-1.04 by Jim, 24 Oct 2007==
  * Fixed bugs associated with \sts.
@@ -52,22 +50,22 @@ Revision History for Silas.DOT
 ==Silas 2.1-1.02 by Jim, 23 Aug 2007==
  * Changed RemoveCommasFromStylenames in Install Silas.doc to match the new stylenames, in which the ", " of 2.05 has become " - " in 2.1.
  * \b style pointsize up from 5 to 10, to match v2.1
- * updated styles to match USFM 2.1
-  \ipq style made italic to match USFM.sty and other Intro styles.
-  \k style bold italic to match v2.1
-  \ca style now a character style, to match v2.1
-  \ef style deleted to match v2.1
+ * updated styles to match USFM 2.1:
+ * * \ipq style made italic to match USFM.sty and other Intro styles.
+ * * \k style bold italic to match v2.1
+ * * \ca style now a character style, to match v2.1
+ * * \ef style deleted to match v2.1
  * Deprecated styles now being replaced by the modern equivalents.
  * \pro style name changed to match v2.1
  * .LineSpacing = 0.4 changed for Word 2007, where minimum is 0.7. But I made this spacing 1 point to make easier maths for space before headings.
  * Changed TE style equivalence for "Citation Paragraph" from "p - ..." to
-	"mi - Paragraph - Indented - No First Line Indent"
-	to match TE help file example better.
+  "mi - Paragraph - Indented - No First Line Indent"
+  to match TE help file example better.
  * Pt 6.1 puts out verse numbers with no-break spaces after them, so check behaviour -- OK.
  * made "-" in verse numbers in \x fields be no-break
- * Added \ili and \ili1 and \ili2 to match USFM.sty version 2.1
- * Attended to line spacing of _rq para style.
- * Added USFM to Styles menu and macro, 
+ * Added `\ili` and `\ili1` and `\ili2` to match USFM.sty version 2.1
+ * Attended to line spacing of `_rq` para style.
+ * Added "USFM to Styles" menu and macro
 
 ==Silas 2.05-1.040 by Jim, 9 Apr 2007==
  * Changed size of verse number style back to same as text.
