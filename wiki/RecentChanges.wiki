@@ -20,7 +20,7 @@ Revision History for Silas.DOT
  * Removed confusing instruction to print instructions in "Install Silas.doc"
  * Made a few minor changes to "FAQ Silas.doc"
  * Fixed errors in `*_Styles.txt` files
- * Added _sts stylename to list stepped over when adding section break between 1-column intro material and 2-column text material.
+ * Added `_sts - Status` stylename to list stepped over when adding section break between 1-column intro material and 2-column text material.
  * When verse codes found in chapter style, "Continue anyway" button now continues.
  * Stylename updating tested OK for all versions of USFM: 1.5, 1.54, 2.0, 2.04, 2.041, 2.05, 2.1, 2.101
 
@@ -34,7 +34,7 @@ Revision History for Silas.DOT
 ==Silas 2.101-1.02 by Jim, 14 Oct 2007==
  * Added "USFM 2 styles", so people can type up on machines that can't run Paratext (eg. Alphasmart NEO) and produce nicely formatted printouts.
  * Deprecated and obsolete styles and \codes now changed to the currently approved equivalents.
- * We now Catch `\sts N` out of Pt and apply "_sts - Status" character style (yellow, 1 pt) & translate N into descriptions based on USFM description & make ID footers show the latest one
+ * We now Catch `\sts N` out of Pt and apply "`_sts - Status`" character style (yellow, 1 pt) & translate N into descriptions based on USFM description & make ID footers show the latest one
  * Added a way of hiding verse 1 if the chapter numbers are dropcaps.
  * Added something to FAQ file on how to modify styles.
 
