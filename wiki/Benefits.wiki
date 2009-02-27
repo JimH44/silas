@@ -29,3 +29,7 @@ So that you can try out how your readers respond to different layout options, yo
  * point size
  * line spacing
  * columns -- single-column or double-column
+
+SILAS also provides help for projects where the translation is keyboarded on a simple, low-power computer such as an Alphasmart NEO. You can transfer the data into Microsoft Word then attach the SILAS template, and it will standardize the backslash codes, save the SFM file for import to a scripture editing program and then convert the text to styled data ready for formatted printing.
+
+It can also update the stylenames in files prepared with the Scripture templates dating from the 1990s, and give help in applying styles to plain text or Word documents that were typed without any formatting information.
