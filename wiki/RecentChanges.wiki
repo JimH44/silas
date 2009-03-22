@@ -25,10 +25,8 @@ Revision History for Silas.DOT
   # make the dropcap with the first one, then add the others to it.
 
 ==Silas 2.104-1.02 by Jim, 2 Jan 2009==
- * The change in USFM.sty from 2.103 to 2.104 only affects the \OccursUnder field for \qt,
-so no changes to the SILAS macros are needed.
- * FAQ file updated to mention using SILAS with the original SCRxxx.dot templates,
-and processing files without any formatting.
+ * The change in USFM.sty from 2.103 to 2.104 only affects the \OccursUnder field for \qt, so no changes to the SILAS macros are needed.
+ * FAQ file updated to mention using SILAS with the original SCRxxx.dot templates, and processing files without any formatting.
  * Minor tweak to a message in Attach macro in Install Silas.doc
  * No longer using wildcards to reduce duplicate fixed spaces.
  * Made hyphen-to-fixed-spaces work in footnotes as well as main text.
@@ -41,40 +39,27 @@ and processing files without any formatting.
   # modifying an existing language
   # Each job uses dbLanguageInfo, 
   # but sets the public variable NewLanguage appropriately first.
- * Files made with USFM_draft.sty no longer produce warning messages,
-but still load "Recent_Styles.txt" to update stylenames.
+ * Files made with USFM_draft.sty no longer produce warning messages, but still load "Recent_Styles.txt" to update stylenames.
  * This item removed from the ToDo list:
-  * To solve the problem of lines not matching up, 
-think about having a blank line with "keep with next" attribute
-before each section heading, instead of setting Space before in the \s style.
-(This proved hard to do in Word,
-so let the typesetters use real typesetting software,
-and translators use Word with SILAS for quick printouts.)
- * Fixed a couple of loop errors in processing chapter codes 
-that don't have appropriately-formatted text after them.
+  * To solve the problem of lines not matching up, think about having a blank line with "keep with next" attribute before each section heading, instead of setting Space before in the \s style. (This proved hard to do in Word, so let the typesetters use real typesetting software, and translators use Word with SILAS for quick printouts.)
+ * Fixed a couple of loop errors in processing chapter codes that don't have appropriately-formatted text after them.
  * Worked around problem with wildcard search not working to find multiple fixed spaces.
 
 ==Silas 2.103-1.06 by Jim, 22 Aug 2008==
- * Colour used for hiding ID line etc changed from yellow to white,
-because yellow shows up on some printers.
-Uses a Public Const, HiddenColor, so you can change it back easily if you want to.
- * In USFM2Styles, FixCodes always called to avoid problems where SFM file edited
-after FixCodes has been run, and errors introduced. Also changed what happens
-if a paragraph code found within a paragraph (word 2003 bug).
+ * Colour used for hiding ID line etc changed from yellow to white, because yellow shows up on some printers. Uses a Public Const, HiddenColor, so you can change it back easily if you want to.
+ * In USFM2Styles, FixCodes always called to avoid problems where SFM file edited after FixCodes has been run, and errors introduced. Also changed what happens if a paragraph code found within a paragraph (word 2003 bug).
  * Fixed problem with Change Paper Size dialog -- it now displays the current setting
 when the dialog is initialized.
  * Added tests and control files to update files made with SCR_V2.dot and SCRPNG98.dot.
  * Minor improvement to instructions in Install Silas.doc when automatic procedure fails.
  * Changed the check for chapter style running too far, to allow "Sapta 6" in files.
- * Added macros to reduce multiple spaces and join lines into a paragraph,
-with items on the USFM2Stles menu.
+ * Added macros to reduce multiple spaces and join lines into a paragraph, with items on the USFM2Stles menu.
 
 ==Silas 2.103-1.04 by Jim, 20 Apr 2008==
  * Added ReformatVerseNumbers to USFM to Styles menu as Format Verse Numbers.
 
 ==Silas 2.103-1.02 by Jim, 10 Apr 2008==
- * Changes to match the new version of USFM.sty.
-\t* for tables have had their color information removed.
+ * Changes to match the new version of USFM.sty. \t* for tables have had their color information removed.
  * Deleted some wrongly-named styles associated with these.
  * Added a title to the text in the template.
 
@@ -85,52 +70,34 @@ This version was not released, because a new version of USFM.sty had come out al
  * Fixed bug in ShowLangInfoInInifile and ShowCurrentSettings and ShowLanguageInfoForm.
 (NoBreakHyphens used instead of NoBreakSpaces by mistake.)
  * Added ability to change brackets ([ and ]) to half brackets (U02FB and U02FC).
- * Fixed bug in scanning through paragraphs where a table with a column spanning several rows
-could cause an endless loop.
+ * Fixed bug in scanning through paragraphs where a table with a column spanning several rows could cause an endless loop.
  * USFM2Styles now also saves document as .doc at the end, suggesting same filename as SFM version.
- * Resolved problem in MakeCoverDocument in case where different sections have different margins --
-getting the margin from the whole document produced the undefined value of "9999999".
-Now gets the right margin from the first section in the document, the title page.
-Fixed same problem in IncreaseRightMargin and DecreaseRightMargin,
-and also prevented the user from increasing or decreasing too far.
+ * Resolved problem in MakeCoverDocument in case where different sections have different margins -- getting the margin from the whole document produced the undefined value of "9999999". Now gets the right margin from the first section in the document, the title page. Fixed same problem in IncreaseRightMargin and DecreaseRightMargin, and also prevented the user from increasing or decreasing too far.
  * Removed line at top of footer in newly-made cover documents.
- * Fixed problem with text in cover documnent being in the wrong font 
-by basing the coverdocument on the booklet document, rather than the template.
- * Fixed bug that double-sided layout for proof printouts would only be done 
-if right margin set to "extrawide" (because End If in the wrong place).
+ * Fixed problem with text in cover documnent being in the wrong font by basing the coverdocument on the booklet document, rather than the template.
+ * Fixed bug that double-sided layout for proof printouts would only be done if right margin set to "extrawide" (because End If in the wrong place).
  * Moved macros that won't run in old verions of Word into separate modules, "VBA10plus" etc.
  * Adjusted some macros to make them work in older versions of Word.
  * Improved layout of dbPTFont.
  * Fixed setting default value of ExportedFrom in AttachSILASFormattingTemplate.
  * Tweaked some messages in AttachSILASTemplate in Install Silas.doc.
  * Worked around erratic bug in Wd 2007 where Paste Special works in single step, but not running.
- * Added a MsgBox in USFM2Styles if style can't be applied -- perhaps the stylename is wrong
-in Silas.dot.
+ * Added a MsgBox in USFM2Styles if style can't be applied -- perhaps the stylename is wrong in Silas.dot.
  * USFM2Styles now updates \nc (ie. note, centred) to \iex.
  * Fixed bug in USFM2Styles where two paragraph styles come in the same line.
  * Fixed crash in Wd97 if picture put relative to column when in single column mode.
- * Install Silas closing itself if toolbar not copied successfully -- fixed, 
-and now brings itself to the top appropriately.
- * Now distinguishing properly between a selected picture and a selected text box,
-so Wd97 won't crash in not text box selected when formatting shape.
+ * Install Silas closing itself if toolbar not copied successfully -- fixed, and now brings itself to the top appropriately.
+ * Now distinguishing properly between a selected picture and a selected text box, so Wd97 won't crash in not text box selected when formatting shape.
  * Improved message if Paratext not installed.
- * Separated usage instructions from template file full of macros,
-to reduce the attach time a bit.
+ * Separated usage instructions from template file full of macros, to reduce the attach time a bit.
  * Added more help for Word 2007 users to info file, "Using Silas.doc".
 
  * Removed from todo list:
    -(eventually) add custom \z* style support, probably just copy the style 
-into the template so it doesn't hang up. 
-   Perhaps note to user about adding to template & formatting it as desired 
-so it'll update next time.
-   Removed because the template won't mess up, having extra styles -- it'll only mess up
-if some style that it is expecting isn't there. And there's no need to
-reload it from the template when the template is attached to set the formatting,
-because the user can do that in USFM.sty, and Pt will export it properly.
+into the template so it doesn't hang up. Perhaps note to user about adding to template & formatting it as desired so it'll update next time. Removed because the template won't mess up, having extra styles -- it'll only mess up if some style that it is expecting isn't there. And there's no need to reload it from the template when the template is attached to set the formatting, because the user can do that in USFM.sty, and Pt will export it properly.
 
 ==Silas 2.101-1.14 by Jim, 2 Mar 2008==
- * Made style "_rq_para" have font of based-on style. Same for "c - Chapter...", 
-	"b - Poetry..." and "cl - Chapter..."
+ * Made style "_rq_para" have font of based-on style. Same for "c - Chapter...", 	"b - Poetry..." and "cl - Chapter..."
  * Fixed bug with _Spread_items and _Paragraph_Centred not following font changes.
  * Faster searching for verse numbers
  * Modified Install Silas.doc to give instructions for Word 2007.
