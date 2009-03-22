@@ -33,3 +33,5 @@ So that you can try out how your readers respond to different layout options, yo
 SILAS also provides help for projects where the translation is keyboarded on a simple, low-power computer such as an Alphasmart NEO. You can transfer the data into Microsoft Word then attach the SILAS template, and it will standardize the backslash codes, save the SFM file for import to a scripture editing program and then convert the text to styled data ready for formatted printing.
 
 It can also update the stylenames in files prepared with the Scripture templates dating from the 1990s, and give help in applying styles to plain text or Word documents that were typed without any formatting information.
+
+Footnote references markers come out of the editing programs running from 'a' to 'z' through the whole document. SILAS changes them to restart at 'a' each page, and makes the footnotes so you can control them by the normal mechanism in Word.
