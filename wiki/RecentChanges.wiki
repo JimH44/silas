@@ -94,7 +94,7 @@ This version was not released, because a new version of USFM.sty had come out al
    -(eventually) add custom `\z*` style support, probably just copy the style into the template so it doesn't hang up. Perhaps note to user about adding to template & formatting it as desired so it'll update next time. Removed because the template won't mess up, having extra styles -- it'll only mess up if some style that it is expecting isn't there. And there's no need to reload it from the template when the template is attached to set the formatting, because the user can do that in USFM.sty, and Pt will export it properly.
 
 ==Silas 2.101-1.14 by Jim, 2 Mar 2008==
- * Made style "_rq_para" have font of based-on style. Same for "c - Chapter...", 	"b - Poetry..." and "cl - Chapter..."
+ * Made style `_rq_para` have font of based-on style. Same for "c - Chapter...", 	"b - Poetry..." and "cl - Chapter..."
  * Fixed bug with `_Spread_items` and `_Paragraph_Centred` not following font changes.
  * Faster searching for verse numbers
  * Modified Install Silas.doc to give instructions for Word 2007.
