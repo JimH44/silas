@@ -22,9 +22,9 @@ Revision History for Silas.DOT
  * Fixed bug in changing footnotes from renumbering each page to continuous (within sections) and back
  * Fixed bug in ChangeFontSize if variable is empty.
  * Added control to say whether or not footnotes should restart at 'a' each page.
- * Macro to convert // to ^l (manual line break) if the paragraph as formatted occupies more than one line. (Actually, hides the "// " so the ^l can be removed and the job done again after anything that affects line length.)
+ * Macro to convert `//` to `^l` (manual line break) if the paragraph as formatted occupies more than one line. (Actually, hides the "// " so the `^l` can be removed and the job done again after anything that affects line length.)
  * Documents produced by WordSend (ie. Onyx) now recognised, and stylenemes converted to USFM versions.
- * This version of USFM added a style for the \sts code, "rem - File - Status", so the files for updating styles now change our previous style, `"_sts - Status"` to the new one, and the new one appears in page footers.
+ * This version of USFM added a style for the \sts code, `rem - File - Status`, so the files for updating styles now change our previous style, `_sts - Status` to the new one, and the new one appears in page footers.
  * Fixed problem installing if Pt folder name in the registry doesn't have "\" at the end.
  * Fixed problem for some South American systems, where the national language settings have the same character for decimal point and list separator. With this setting, Word can't do math, so the separator between chapter numbers in page headers disappears. Now shows 4-5 and 5-7 in these countries.
  * Added to the end of `SetStandardFindOptions` a setting of `Browser.Target` to `wdBrowsePage`, so the double-arrow browse keys default to browsing by page after macros run.
