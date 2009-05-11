@@ -10,11 +10,33 @@ Revision History for Silas.DOT
  * Work out how to avoid headers and footers being displaced in proof printouts when there are wide right margins and double-sided layout.
  * Make Silas handle `\cl` as described in USFM documentation.
  * Make input boxes save as Unicode (if appropriate)
- * Research a way of having \s# and \ip# and \iex be in side boxes, and verse numbers in the margin.
+ * Research a way of having \s# and \ip# and \iex be in side boxes.
  * A way of coping with the Word bug, that it will attach Silas.dot from the current directory of the data file, even though we specify C:\MPP\Silas.dot.
  * Check Kim's loop in `USFM2Styles` with \b
 
 =Recent changes=
+==Silas 2.208-1.02 by Jim, 30 Apr 2009==
+ * Updated to match USFM.sty version 2.208.
+ * Added section for further information to "Using SILAS.doc", to refer to
+FAQ file and SILAS web page with its mailing lists and Issues tab.
+ * Fixed bug in CheckPath macro when Paratext not installed.
+ * Fixed bug in changing footnotes from renumbering each page to continuous (within sections) and back
+ * Fixed bug in ChangeFontSize if variable is empty.
+ * Added control to say whether or not footnotes should restart at 'a' each page.
+ * Macro to convert // to ^l (manual line break) if the paragraph as formatted
+occupies more than one line. (Actually, hides the "// " so the ^l 
+can be removed and the job done again after anything that affects line length.)
+ * Documents produced by WordSend (ie. Onyx) now recognised, and stylenemes converted to USFM versions.
+ * This version of USFM added a style for the \sts code, "rem - File - Status", 
+so the files for updating styles now change our previous style, 
+"_sts - Status" to the new one,	and the new one appears in page footers.
+ * Fixed problem installing if Pt folder name in the registry doesn't have "\" at the end.
+ * Fixed problem for some South American systems, where the national language settings 
+have the same character for decimal point and list separator. 
+With this setting, Word can't do math, so the separator between chapter numbers 
+in page headers disappears. Now shows 4-5 and 5-7 in these countries.
+ * Added to the end of SetStandardFindOptions a setting of Browser.Target to wdBrowsePage, 
+so the double-arrow browse keys default to browsing by page after macros run.
 ==Silas 2.204-1.02 by Jim, 12 Mar 2009==
  * Makes ~ become fixed space as well as !$.
  * A safer way of converting version strings to numbers for comparison: change "." to separator character.
