@@ -1,4 +1,4 @@
-#summary Summary of recent changes, to version 2.101-1.12
+#summary Summary of recent changes, to version 2.209-1.12
 #labels Featured
 Revision History for Silas.DOT
 
@@ -7,14 +7,75 @@ Revision History for Silas.DOT
  * Provide drop-down list of 3-letter booknames in ID form? -- only aesthetic value during setup; the bookname isn't used for anything nor is it visible (except for ID footers in Proofs). We could do it with a txt file such as	!Recent_Styles.txt.
  * Add horizontal rule between intro and Scr text even if single-column?
  * check into more automated picture placement (see Toolbox macro by Steve White)
- * Work out how to avoid headers and footers being displaced in proof printouts when there are wide right margins and double-sided layout.
- * Make Silas handle `\cl` as described in USFM documentation.
  * Make input boxes save as Unicode (if appropriate)
  * Research a way of having \s# and \ip# and \iex be in side boxes.
- * A way of coping with the Word bug, that it will attach Silas.dot from the current directory of the data file, even though we specify C:\MPP\Silas.dot.
  * Check Kim's loop in `USFM2Styles` with \b
 
 =Recent changes=
+==Silas 2.209-1.12 by Jim, 15 Dec 2009==
+ * Added a way for SILAS to put version numbers etc into an error report
+ * Added references to that in FAQ file, along with how to make suggestions.
+ * Footnotes formatted with tab after reference, so letters & stars match.
+
+==Silas 2.209-1.10 by Jim, 13 Dec 2009==
+ * Resolved hang in Wd 2007 formatting Vwanji booklets :-)
+
+==Silas 2.209-1.08 by Jim, 12 Dec 2009==
+ * Improved handling of new language.
+ * Added hanging indent on footnote paragraphs, adjusted to point size.
+ * Prevents Project Code and Ethnologue Code being applied incorrectly to a new language.
+
+==Silas 2.209-1.06 by Jim, 4 Dec 2009==
+ * Added code to remove spaces from beginnings of footnotes produced by Paratext 7's export to RTF, and to apply style `_Footnote_Reference` to ref. letters in footnotes.
+ * Improved FAQ file somewhat.
+ * Added `Unload Me` to `OK` on language data form.
+
+==Silas 2.209-1.04 by Jim, 18 Nov 2009==
+
+ * Improved `Install Silas.doc` instructions for Wd 2007, because Organizer doesn't have anything about toolbars.
+ * Added `AddCaption` macro
+ * Added `# copies` to copyright page.
+
+==Silas 2.209-1.02 by Jim, 12 Oct 2009==
+ * Now removes space(s) at the beginning of paragraphs.
+ * Includes style for picture captions, `_Caption`
+ * Fixed problems closing window panes sometimes.
+ * Improved method of handling hyphens in verse number ranges.
+ * Converting to Wd2007 document didn't solve problem changing footnotes in Vwanji language, so this is commented out.
+ * USFM2Styles ends section headings more safely.
+
+==Silas 2.208-1.08 by Jim, 11 Aug 2009==
+ * Improved way of putting fixed spaces after verse numbers and putting no-break hyphens between digits
+ * Added ChapterLabels subroutine, to handle `\cl` codes.
+ * Spaces between angle brackets now made no-break spaces, eg `<< <and> >>`
+ * Bug in adding new language fixed.
+ * Fixed some bugs in `USFM2Styles`.
+ * Fixed error in `PNG_Styles.txt`
+
+==Silas 2.208-1.06 by Jim, 18 Jul 2009==
+ * Template is now be installed in User Templates folder, to avoid having to tell Word 2007 to accept macros from elsewhere.
+ * Faster `CopyStyles` subroutine
+ * Now changing styles from two files each time, the normal update and `Replaced_Styles.txt`, which changes DEPRECATED and OBSOLETE styles to appropriate USFM styles.	`Custom_Styles.txt` now empty, as it shouild be.
+ * Problems from no code between `\c` and `\v` now fixed, and empty chapters deleted.
+ * Better and simpler method of handling `#-#` and other special characters.
+ * Quicker display of first dialog for jobs 1 and 2, and fixed header-footer bug from that change.
+ * `SetIniFile` macro saves a lot of duplication.
+ * `USFM2Styles` more robust with poorly-formed footnotes.
+ * If this is Wd2007, converts document to Wd2007 instead of running in compatibility mode.
+ * Added some abbreviated stylenames to `PNG_Styles.txt` to help with use in Pt5.
+
+==Silas 2.208-1.04 by Jim, 10 Jul 2009==
+ * Reduced scaling of tiny chapter numbers in style `_CurrentChapter` from 30% to 5%, because some people could see the space and removed the numbers.
+ * Added how to make send screenshots to problem report file.
+ * `USFM2Styles` now adds suggested ID line etc to input SFM file, formats numbers as verse numbers where appropriate, skipping any `>` 176 (PSA 119) suggests filename based on actual BUK, Chapter and Language.
+ * Working around different behaviour in Word 2007 so space between bookname and chapter number in page headers doesn't disappear.
+ * Now grouping special character changes such as `!$` to `^~` in one macro and making it also change `#-#` to `#^~#` early in the processing, so that change in individual styles no longer necessary.
+
+
+
+
+
+
 ==Silas 2.208-1.02 by Jim, 30 Apr 2009==
  * Updated to match USFM.sty version 2.208.
  * Added section for further information to "Using SILAS.doc", to refer to FAQ file and SILAS web page with its mailing lists and Issues tab.
