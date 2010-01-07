@@ -3,7 +3,7 @@
 How do I *install* the Scripture Template? 
   Download the file, [http://silas.googlecode.com/files/Silas-v2.209-1.12-Setup.exe Silas-v2.209-1.12-Setup.exe], from the Downloads tab above. Save it onto your computer, then double-click on this file to begin the installation. Then follow the instructions that will appear. It is very important that you install it in this manner, because there are several other files and some macro items that need to be copied in addition to the .DOT file. You should read through the instructions that you will see at the end of the install job.
 
-The most up-to-date version of this file is installed with the latest version of SILAS, and a link to it is put in the Quicklaunch area and in the Start menu, so please check that file for the latest details.
+  The most up-to-date version of this file is installed with the latest version of SILAS, and a link to it is put in the Quicklaunch area and in the Start menu, so please check that file for the latest details.
 
 Does it contain the macros and buttons that the *older Scripture templates had*, such as !ChangeSpacing, !ChangeFont, Single/!DoubleColumn?
   Yes, this template contains all the formatting macros from the older templates—most have been improved. There are also two “mega-jobs” for “one-click” (well, almost…) formatting of either Draft Printouts for checking or Half-Page Booklets. You’ll find some new formatting features as well.
