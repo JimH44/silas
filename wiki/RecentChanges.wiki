@@ -46,7 +46,7 @@ Revision History for Silas.DOT
 
 ==Silas 2.208-1.08 by Jim, 11 Aug 2009==
  * Improved way of putting fixed spaces after verse numbers and putting no-break hyphens between digits
- * Added ChapterLabels subroutine, to handle `\cl` codes.
+ * Added `ChapterLabels` subroutine, to handle `\cl` codes.
  * Spaces between angle brackets now made no-break spaces, eg `<< <and> >>`
  * Bug in adding new language fixed.
  * Fixed some bugs in `USFM2Styles`.
@@ -71,11 +71,6 @@ Revision History for Silas.DOT
  * Working around different behaviour in Word 2007 so space between bookname and chapter number in page headers doesn't disappear.
  * Now grouping special character changes such as `!$` to `^~` in one macro and making it also change `#-#` to `#^~#` early in the processing, so that change in individual styles no longer necessary.
 
-
-
-
-
-
 ==Silas 2.208-1.02 by Jim, 30 Apr 2009==
  * Updated to match USFM.sty version 2.208.
  * Added section for further information to "Using SILAS.doc", to refer to FAQ file and SILAS web page with its mailing lists and Issues tab.
@@ -90,9 +85,9 @@ Revision History for Silas.DOT
  * Fixed problem for some South American systems, where the national language settings have the same character for decimal point and list separator. With this setting, Word can't do math, so the separator between chapter numbers in page headers disappears. Now shows 4-5 and 5-7 in these countries.
  * Added to the end of `SetStandardFindOptions` a setting of `Browser.Target` to `wdBrowsePage`, so the double-arrow browse keys default to browsing by page after macros run.
 ==Silas 2.204-1.02 by Jim, 12 Mar 2009==
- * Makes ~ become fixed space as well as !$.
+ * Makes `~` become fixed space as well as `!$`.
  * A safer way of converting version strings to numbers for comparison: change "." to separator character.
- * Workaround for Wd 2003 (& others?) to allow wildcard searches for \ codes to work properly in UTF-8 file (in sub `FixCodes`)
+ * Workaround for Wd 2003 (and others?) to allow wildcard searches for \ codes to work properly in UTF-8 file (in sub `FixCodes`)
  * A safer way of doing multi-character dropcap chapter numbers. 
   # Select chapter numbers
   # put first one into a string and the rest into another
@@ -111,10 +106,10 @@ Revision History for Silas.DOT
  * Reduced duplication of forms for 
   # adding a new language
   # modifying an existing language
-  # Each job uses dbLanguageInfo, 
-  # but sets the public variable NewLanguage appropriately first.
- * Files made with USFM_draft.sty no longer produce warning messages, but still load "Recent_Styles.txt" to update stylenames.
- * This item removed from the ToDo list:
+  # Each job uses `dbLanguageInfo`, 
+  # but sets the public variable `NewLanguage` appropriately first.
+ * Files made with USFM_draft.sty no longer produce warning messages, but still load `Recent_Styles.txt` to update stylenames.
+ * This item removed from the `ToDo` list:
   * To solve the problem of lines not matching up, think about having a blank line with "keep with next" attribute before each section heading, instead of setting Space before in the `\s` style. (This proved hard to do in Word, so let the typesetters use real typesetting software, and translators use Word with SILAS for quick printouts.)
  * Fixed a couple of loop errors in processing chapter codes that don't have appropriately-formatted text after them.
  * Worked around problem with wildcard search not working to find multiple fixed spaces.
@@ -154,7 +149,7 @@ This version was not released, because a new version of USFM.sty had come out al
  * Fixed setting default value of `ExportedFrom` in `AttachSILASFormattingTemplate`.
  * Tweaked some messages in `AttachSILASTemplate` in Install Silas.doc.
  * Worked around erratic bug in Wd 2007 where Paste Special works in single step, but not running.
- * Added a MsgBox in USFM2Styles if style can't be applied -- perhaps the stylename is wrong in Silas.dot.
+ * Added a `MsgBox` in `USFM2Styles` if style can't be applied -- perhaps the stylename is wrong in Silas.dot.
  * `USFM2Styles` now updates `\nc` (ie. note, centred) to `\iex`.
  * Fixed bug in USFM2Styles where two paragraph styles come in the same line.
  * Fixed crash in Wd97 if picture put relative to column when in single column mode.
@@ -204,9 +199,9 @@ This version was not released, because a new version of USFM.sty had come out al
 ==Silas 2.1-1.04 by Jim, 7 Oct 2007==
  * Formatting `\li#` in glossaries, not just `\li`
  * Glossary formatting works with `\id GLO` as well as `\glo`
- * !ChangeFontSize now adjusts `\rq` style.
+ * `ChangeFontSize` now adjusts `\rq` style.
  * OBSOLETE Peripheral styles now hidden and revealed along with `\id` etc.
- * !.ApplyStyleHeadingRows not used in word versions <= 10.
+ * `.ApplyStyleHeadingRows` not used in word versions <= 10.
  * Reduced number of message boxes from Install file
  * After user-callable macros, find options are now reset to standard values.
 
