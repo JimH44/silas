@@ -37,9 +37,9 @@ It can also update the stylenames in files prepared with the Scripture templates
 Footnote references markers come out of the editing programs running from 'a' to 'z' through the whole document. SILAS changes them to restart at 'a' each page, and makes the footnotes so you can control them by the normal mechanism in Word.
 
 =What about Print Draft to make PDF files from Paratext 7?=
-Print Draft is easy to use, and faster than formatting with SILAS, and works well for proof printouts of a single book. It can even insert pictures automatically, provided the picture files are present in the correct folder in the Paratext project files. And the output is a PDF file, which most computer users can't alter, so there are many situations where Print Draft is the best way to go.
+Print Draft is easy to use, and faster than formatting with SILAS, and works well for proof printouts of a single book. It can even insert pictures automatically, provided the picture files are present in the correct folder in the Paratext project files. And the output is a PDF file, so there is no dependence on Microsoft Word, with problems where different versions behave differently. Also, most computer users can't alter PDF files, so there are many situations where Print Draft is the best way to go.
 
-But for various situations, Print Draft has a number of drawbacks:
+But for some situations, Print Draft has a number of drawbacks:
  * Although you can specify output of several books at once, each book goes into a separate PDF file, with the page number starting at 1, so you can't add title and copyright pages and make a booklet of several books, the way you can with SILAS.
- * When Print Draft inserts pictures, each picture must occupy the full width of a column. There is no way to put a picture at the left or right margin, with text flowing around it, because there is no way of specifying that in the USFM standard.
+ * When Print Draft inserts pictures, each picture must occupy the full width of a column. There is no way to put a picture at the left or right margin, with text flowing around it, because there is no way of specifying that kind of layout in the USFM standard.
  * Print Draft does not output the contents of `\sts` fields, which exist in USFM so different parts of a large book like Genesis or Luke can have their checking status shown in the printouts, the way SILAS does.
