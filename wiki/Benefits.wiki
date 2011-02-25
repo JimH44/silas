@@ -16,6 +16,7 @@ Silas makes your printouts safer, because Silas does the following things by def
   * book-name abbreviation
   * language or project name
   * checking stage, such as first draft, village checked etc
+ * puts in the footer of proof printouts the most recent 'sts' field, to show the status of that section when it was printed, such as peer-reviewed or community-reviewed.
  * starts a new _section_ wherever the book name (in the ID line) changes, so the page headers can reflect the start of a new book.
 
 Silas also lets you format your data for half-page booklets, with margins set appropriately for folded books or for cut books. When you do that, it automatically creates a title page and a copyright page, with sample credits for pictures you might have used.
