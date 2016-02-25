@@ -1,0 +1,37 @@
+# If the downloaded file won't run . . . #
+
+The download may have failed, and the downloaded file might be too short, or corrupted.
+
+
+# How to check #
+
+When you try to run the installation program you just downloaded, you may get a message that the file is corrupt. If that happens, the first thing to check is the **size of the file** that's just been copied on your computer: It should be the same size (within a few KB--some programs report size differently) as the file on the Downloads page of this website. If your copy is smaller, then the download did not finish properly and you should download the whole file again.
+
+If this doesn't help and you want to explore further, you could check the **checksum**, which is listed on the _Downloads_ page.
+
+(Open the _Downloads_ page and click on the _Summary_ for the file you want to download (it might be, "Silas installation file").
+
+Another page will open, listing the SHA1 checksum.)
+(SHA stands for Secure Hash Algorithm)
+
+In this case, the page that will open is
+http://code.google.com/p/silas/downloads/detail?name=Silas-v2.05-1.020-Setup.exe&can=2&q=
+
+and the checksum listed there is
+4eaf30b9c1a2b802149d79e1cfe15fe30c991bd3
+
+You can get a program that will calculate the SHA1 value for the file you have downloaded,
+AccuHash, at http://www.accuhash.com/
+
+Install it, then run it and Browse to the file you downloaded.
+Set the Hash type to SHA1, and the Encoding to Hexadecimal.
+
+Operate the Calculate button, and the program will calculate the SHA1 value for the file.
+
+On the web page for the Silas download, select the SHA1 value, copy it to the clipboard
+and paste it into the Original hash value field and operate the Compare button.
+
+If the two values match, the download happened properly.
+If not, download again and check again.
+
+Calculate the value for the newly-downloaded file and compare again. When they match, try to run the executable file. If it still won't run, please email one of the managers of the project.

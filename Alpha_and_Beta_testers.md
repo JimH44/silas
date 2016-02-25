@@ -1,0 +1,42 @@
+Sometimes the people most stressed by computers are the ones who find
+the bugs for us :-(
+
+We would like to have a list of volunteers who would not be too thrown
+by the odd crash, who could download a new version of Silas and test
+it, perhaps in more than one version of Word, even in systems set for
+different languages, such as Swedish, Japanese, French or Spanish.
+
+And we'd love to have someone test it in Word 2007.
+
+I would like to have two lists:
+## Alpha testers ##
+> the most adventurous, who can be the first guinea pigs
+## Beta testers ##
+> those who would rather have others find the most glaring errors first
+
+## If you would like to help ##
+If you would like to join either list (or both), pls send an email
+back to me at
+
+> [mailto:Jim.Henderson44@gmail.com](mailto:Jim.Henderson44@gmail.com)
+
+stating your intention.
+
+I'll compile the list and share it with Kim, but no further.
+
+If you wish, you can ask us to send notifications of new versions to
+test with your address in the BCC field, so the other recipients of
+the message won't see your email address.
+
+So an easy way for you to respond would be to copy the next few lines
+to the clip board, click on my email address above, and paste into the
+message, then fill in the blanks and send:
+
+> Alpha test list: yes/no
+
+> Beta test list: yes/no
+
+> Use BCC field: yes/no
+
+Thanks for considering this request,
+> Jim

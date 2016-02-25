@@ -1,0 +1,45 @@
+# Why not just print the RTF file that comes out of my Scripture editing program? #
+
+The RTF files exported from these programs at present have
+  * no page numbers
+  * no book name or chapter number in the page headers
+  * no indication of the language, checking stage reached by this text or of the date the data were exported from the editing program
+
+
+# The benefits of using Silas #
+
+Silas makes your printouts safer, because Silas does the following things by default:
+  * numbers the pages, so you can say in village checking sessions, "Turn to page 16 now".
+  * puts in the page header the book name and the number(s) of the chapter(s) that appear on the page, so people can find a book-chapter reference quickly
+  * puts in the page footer (of proof printouts) the date on which the data were exported from your editing program, and the ID line exported by your editing software, which can contain
+    * book-name abbreviation
+    * language or project name
+    * checking stage, such as first draft, village checked etc
+  * puts in the footer of proof printouts the most recent `\sts` field, to show the status of that section when it was printed, such as peer-reviewed or community-reviewed.
+  * starts a new _section_ wherever the book name (in the ID line) changes, so the page headers can reflect the start of a new book.
+
+Silas also lets you format your data for half-page booklets, with margins set appropriately for folded books or for cut books. When you do that, it automatically creates a title page and a copyright page, with sample credits for pictures you might have used.
+
+Then you can use _macros_ to help you place pictures in your booklet, with the text flowing around the pictures nicely.
+
+After that, Silas can make a separate document that you can print on cardstock for the cover of the booklet.
+
+So that you can try out how your readers respond to different layout options, you can use _macros_ to change the
+  * font
+  * point size
+  * line spacing
+  * columns -- single-column or double-column
+
+SILAS also provides help for projects where the translation is keyboarded on a simple, low-power computer such as an Alphasmart NEO. You can transfer the data into Microsoft Word then attach the SILAS template, and it will standardize the backslash codes, save the SFM file for import to a scripture editing program and then convert the text to styled data ready for formatted printing.
+
+It can also update the stylenames in files prepared with the Scripture templates dating from the 1990s, and give help in applying styles to plain text or Word documents that were typed without any formatting information.
+
+Footnote references markers come out of the editing programs running from 'a' to 'z' through the whole document. SILAS changes them to restart at 'a' each page, and makes the footnotes so you can control them by the normal mechanism in Word.
+
+# What about Print Draft to make PDF files from Paratext 7? #
+Print Draft is easy to use, and faster than formatting with SILAS, and works well for proof printouts of a single book. It can even insert pictures automatically, provided the picture files are present in the correct folder in the Paratext project files. And the output is a PDF file, so there is no dependence on Microsoft Word, with problems where different versions behave differently. Also, most computer users can't alter PDF files, so there are many situations where Print Draft is the best way to go.
+
+But for some situations, Print Draft has a number of drawbacks:
+  * Although you can specify output of several books at once, each book goes into a separate PDF file, with the page number starting at 1, so it's more complicated to add title and copyright pages and make a booklet of several books than what you can do with SILAS. (Paratext 7.2 is scheduled to fix this.)
+  * When Print Draft inserts pictures, each picture must occupy the full width of a column. There is no way to put a picture at the left or right margin, with text flowing around it, because there is no way of specifying that kind of layout in the USFM standard. SILAS provides macros to help you insert pictures and place them exactly where you want them in the document.
+  * Print Draft does not output the contents of `\sts` fields, which exist in USFM so different parts of a large book like Genesis or Luke can have their checking status shown in the printouts. SILAS displays these in the page footers of proof printouts.
